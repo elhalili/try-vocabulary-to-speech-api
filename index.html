@@ -23,6 +23,7 @@
                         <option value="en" selected>English</option>
                         <option value="de">German</option>
                         <option value="ar">Arabic</option>
+                        <option value="fr">French</option>
                     </select>
                 </div>
                 <div>
@@ -31,6 +32,7 @@
                         <option value="en">English</option>
                         <option value="de">German</option>
                         <option value="ar" selected>Arabic</option>
+                        <option value="fr">French</option>
                     </select>
                 </div>
             </div>
@@ -95,7 +97,7 @@
                         'Content-Type': 'application/json'
                         },
                         body: JSON.stringify({
-                            lan1: select1.value,
+                            lang1: select1.value,
                             lang2: select2.value,
                             data: vocab
                         })
