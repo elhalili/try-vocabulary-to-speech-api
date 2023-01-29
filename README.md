@@ -1,4 +1,4 @@
-# front-test-vts
+# An HTML page to consume the API of vocabulary-to-speech
 
 Generate an audio file from a list of vocabulary.
 
