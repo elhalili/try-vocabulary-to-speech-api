@@ -1,19 +1,11 @@
 import React from 'react';
 
-interface Props {}
 
-interface State {
-  value: string;
-}
+const App: React.FC = () => {
 
-class App extends React.Component<Props, State> {
-  render() {
-    return (
-      <>
-        <h1>Hi</h1>
-      </>
-    );
-  }
+  return (
+    <h1>Hi vts</h1>
+  )
 }
 
 export default App;
